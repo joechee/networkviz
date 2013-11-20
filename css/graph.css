@@ -1,0 +1,32 @@
+body {
+	background: #AAA;
+}
+.link {
+  stroke: #000;
+  stroke-width: 5px;
+}
+
+.link.message {
+  stroke: #FFD700;
+}
+
+.node.message {
+  fill: #FFD700;
+}
+
+.node.received {
+  fill: #FF00FF;
+}
+
+.link:hover {
+  cursor: pointer;  
+}
+
+.node:hover {
+  cursor: pointer;
+}
+
+.tag {
+  background: #EEEEEE;
+}
+
